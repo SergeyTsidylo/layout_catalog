@@ -9,33 +9,26 @@ body {
   padding: 0 50px;
   align-items: center;
   height: 60px;
-}
 
-.logoContainer {
-  height: 40px;
-}
+  &__logo {
+    height: 40px;
+  }
 
-.linksList {
-  display: flex;
-  margin: 0;
-  padding-inline-start: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: flex-end;
-}
+  &__list {
+    display: flex;
+    margin: 0;
+    padding-inline-start: 0;
+    }
+  }
 
 .links {
   display: flex;
   text-transform: uppercase;
   list-style: none;
   &:not(:first-child) {
-    margin-left: 20px;
+  margin-left: 20px;
   }
-}
-
-.linksHref {
+  &__href {
   color: #060b35;
   font-size: 12px;
   font-family: $main-font-family;
@@ -45,13 +38,13 @@ body {
   height: 60px;
   display: flex;
   align-items: center;
-  &:hover {
-    color: $main-color;
-    transition-duration: 500ms;
+  transition-duration: 300ms;
+    &:hover {
+      color: $main-color;
+    }
   }
-}
 
-.is-active {
+  &__is-active {
   font-size: 12px;
   letter-spacing: 0;
   line-height: 100%;
@@ -62,10 +55,11 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  &:hover {
-    color: $main-color;
-  }
-  &::after {
+  transition-duration: 300ms;
+    &:hover {
+      color: $main-color;
+    }
+    &::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -73,5 +67,9 @@ body {
     background-color: $main-color;
     bottom: 0;
     left: 0;
+    }
   }
 }
+
+
+

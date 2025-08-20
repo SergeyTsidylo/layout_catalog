@@ -43,7 +43,7 @@
 
 .card {
   align-items: center;
-  transition-duration: 300ms;
+  transition: transform 300ms;
   &:hover {
     transform: scale(1.2);
   }
@@ -60,7 +60,7 @@
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    transition-duration: 500ms;
+    transition-duration: all 300ms;
 
     &:hover {
       background-color: #fff;
@@ -126,6 +126,7 @@
     margin: 40px 16px 0;
     width: $main-width;
     color: #060b35;
+    transition: color 300ms;
   }
 }
 
