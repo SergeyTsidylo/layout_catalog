@@ -83,11 +83,13 @@
     display: flex;
     justify-content: space-between;
     &-price {
+      font-family: $main-font-family;
       font-weight: $main-font-weight;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 18px;
     }
     &-dolars {
+      font-family: $main-font-family;
       font-weight: 700;
       font-size: 16px;
       line-height: 18px;
@@ -107,6 +109,7 @@
     justify-content: space-between;
 
     &-reviews {
+      font-family: $main-font-family;
       font-weight: $main-font-weight;
       font-size: 10px;
       line-height: 14px;

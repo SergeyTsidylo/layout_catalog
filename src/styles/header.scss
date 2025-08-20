@@ -39,6 +39,7 @@ body {
   color: #060b35;
   font-size: 12px;
   font-family: $main-font-family;
+  letter-spacing: 0;
   font-weight: 500;
   text-decoration: none;
   height: 60px;
@@ -52,6 +53,7 @@ body {
 
 .is-active {
   font-size: 12px;
+  letter-spacing: 0;
   line-height: 100%;
   font-family: $main-font-family;
   font-weight: 500;
